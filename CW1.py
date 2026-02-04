@@ -34,8 +34,7 @@ class DirBuster:
         container = tk.Frame(self.root, bg="#1a1a1a", padx=20, pady=15)
         container.pack(padx=30, pady=10, fill="both")
         
-        tk.Label(container   root = tk.Tk()
-    app = DirBuster(, text="TARGET:", bg="#1a1a1a", fg="white").grid(row=0, column=0, sticky='w', pady=(0, 5))
+        tk.Label(container, text="TARGET:", bg="#1a1a1a", fg="white").grid(row=0, column=0, sticky='w', pady=(0, 5))
         
         url_frame = tk.Frame(container, bg="#1a1a1a")
         url_frame.grid(row=1, column=0, columnspan=3, sticky='ew', pady=(0, 10))
